@@ -1,0 +1,58 @@
+<style>
+p {
+  font-family: roboto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.video-title {
+  font-size: 30px;
+  /* font-family: Arial; */
+  font-weight: bold;
+  font-style: italic;
+  width: 500px;
+  line-height: 40px;
+  margin-bottom: 5px;
+  /* margin-top: 0px; */
+}
+.view {
+  font-size: 14px;
+  /* font-family: Arial; */
+  color: grey;
+  /* margin-top: 0px; */
+  margin-bottom: 10px;
+}
+.author {
+  /* margin-top: 0px; */
+  color: grey;
+  /* font-family: Arial; */
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.desc {
+  font-size: 14px;
+  /* font-family: Arial; */
+  /* font-family: 14px; */
+  color: rgb(96, 96, 96);
+  width: 500px;
+  line-height: 20px;
+  margin-bottom: 60px;
+  /* margin-top: 0px; */
+}
+.apple {
+  margin-bottom: 50px;
+  font-size: 16px;
+  background-color: red;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  /* text-decoration: underline;  this will underline the whole paragraph which we don't want to. so we use span to select a specific part of the text to underline and format*/
+}
+.shop-link {
+  cursor: pointer;
+  margin-left: 15px;
+}
+.shop-link:hover {
+  text-decoration: underline;
+}
+</style>

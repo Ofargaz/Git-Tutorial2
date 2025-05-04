@@ -1,0 +1,66 @@
+<!DOCTYPE >
+<html>
+  <heade>
+    <title>Youtube.com Clone</title>
+    <style>
+      .thumbnail {
+        width: 300px;
+        /* height: 300px;
+        object-fit: contain;
+        object-position: top;
+        border-width: 2px;
+        border-style: solid;
+        border-color: red; */
+        display: inline-block;
+      }
+      .search-bar {
+        font-size: 20;
+        margin-left: 10px;
+        display: block;
+      }
+
+      .title {
+        width: 250px;
+        font-weight: bold;
+        font-family: Arial;
+      }
+
+      .author {
+        font-family: Arial;
+        /* display: block; 
+        since paragraph elements are already blocks, we don't have to speciyfy dissplay: block  here. its gonna be redundant*/
+      }
+
+      .stat {
+        font-family: arial;
+        /* display:inline-block; */
+      }
+
+      .video-preview {
+        width: 300px;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 10px;
+      }
+    </style>
+  </heade>
+
+  <body>
+    <input class="search-bar" type="text" placeholder="Search" />
+    <div class="video-preview">
+      <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="two men" />
+
+      <p class="title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+      <p class="author">Marques Brownlee</p>
+      <p class="stat">3.4M views &middot; 6 months ago</p>
+    </div>
+
+    <div class="video-preview">
+      <img class="thumbnail" src="thumbnails/thumbnail-2.webp" alt="two men" />
+
+      <p class="title">Try Not To Laugh Challenge #9</p>
+      <p class="author">Markiplier</p>
+      <p class="stat">19M views &middot; 4 years ago</p>
+    </div>
+  </body>
+</html>
